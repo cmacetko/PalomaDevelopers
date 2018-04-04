@@ -7,7 +7,7 @@ curl_setopt_array($curl, array(
 CURLOPT_URL 				=> "http://api.developers.palomatec.xyz/calculo-frete/jadlog/",
 CURLOPT_RETURNTRANSFER 		=> true,
 CURLOPT_POST				=> true,
-CURLOPT_POSTFIELDS			=> json_encode(array("CodigoModalidade" => 12, "CEPDe" => "88350000", "CEPPara" => "88350000", "Peso" => 5)),
+CURLOPT_POSTFIELDS			=> json_encode(array("CodigoModalidade" => 12, "CEPDe" => "04811210", "CEPPara" => "30190000", "Peso" => 5)),
 CURLOPT_HTTPHEADER 			=> array(
 							"Api-Key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 							),
